@@ -1,0 +1,124 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    position: relative;
+    right:40px;
+    top:10px;
+ }
+
+ body{
+  background-image: url(./light\ mode\ background.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+
+ span{
+  font-weight: 200;
+ }
+
+ a{
+  color: black;
+ }
+
+ p,h1,h2{
+  font-family: 'Poppins', sans-serif;
+ }
+
+ .circle{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: fixed;
+    left:20px;
+
+ }
+
+ .rectangle{
+    width:50px;
+    height: 10px;
+    position: fixed;
+    left: 60px;
+    top:25px;
+    background-color: black;
+ }
+
+ #main{
+    text-align: center;
+ }
+ .boxes{
+    background-image: url(./light-box.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px black;
+ }
+
+ .content{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
+    gap:30px 30px;
+    place-items: center;
+    place-content: center;
+ }
+
+ img{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+ }
+ button{
+   background-color: blue;
+   width: 80px;
+   height:30px;
+   border-radius: 20px;
+   text-align: center;
+   color: white;
+ }
+
+ @media(max-width:900px){
+     .spaces{
+        display: none;
+     }
+
+     .content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .boxes{
+        width:270px;
+     }
+ }
+
+ .body-after{
+  background-image: url(./modern-desktop-background-geometric-blue-design-vector_53876-135923.avif);
+  background-size: cover;
+  background-position: center;
+ }
+
+ .rectspan-after{
+  background-color: rgb(227, 101, 29);
+ }
+
+ .paras-after{
+  color: white ;
+ }
+
+ .boxes-after{
+  background-image: url(./dark_theme.avif);
+ }
+
+ .shadow{
+  box-shadow: 5px 5px 5px 5px red;
+ }
+
+ .a-after{
+  color: blue;
+ }

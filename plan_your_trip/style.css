@@ -1,0 +1,141 @@
+.nav {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.bttn {
+    display: inline;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+    padding: 2px;
+}
+
+.large-button {
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+.space {
+    flex: 3;
+}
+
+.nav ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 2px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.bi-house-door-fill {
+    margin-right: 4px;
+}
+
+.bi-arrow-right {
+    margin-left: 8px;
+}
+
+.bi-list{
+    display: none;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 160px;
+    top: 40px;
+}
+
+#italics {
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-family: 'Afacad', sans-serif;
+}
+
+.content>p {
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    height: 180px;
+    width: 500px;
+    position: relative;
+    right: 10px;
+}
+
+#wave {
+    width: 1100px;
+    height: 420px;
+    position: fixed;
+    left: 180px;
+    bottom: -80px;
+}
+
+footer {
+    display: none;
+}
+
+html {
+    background-color: rgb(35, 8, 35);
+}
+
+@media(max-width:650px) {
+    .nav {
+        display: none;
+    }
+
+    img {
+        height: 140px;
+        width: 300px;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: 5px;
+        top: 90px;
+        height: 90vh;
+        align-items: center;
+    }
+
+    .content>p {
+        font-size: 18px;
+    }
+
+    #wave {
+        display: none;
+    }
+
+    .bi-list{
+        display: block;
+        color: white;
+        height: 30px;
+        width: 30px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer>p {
+        color: blueviolet;
+        position: relative;
+        left: 10px;
+    }
+}
