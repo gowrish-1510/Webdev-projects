@@ -1,1 +1,1 @@
-Repo containing projects related to webdev done by me
+Repo containing mini-projects related to webdev done by me
